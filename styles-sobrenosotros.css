@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edf2f7;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav a {
+    margin-left: 15px;
+    color: #420259;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {/*Color de Fondo de la Barra*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3E5902;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+header .comprar {
+    background-color: #B8D971;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #99BF0F;
+}
+
+.hero img {  /*Imagen AI*/
+    width: 30%;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.hero-text {
+    font-size: 1.3em;
+    /*max-width: 500px;*/
+    color: white;
+}
+
+.hero-text h1 {/*tamaño titulo nuestra historia*/
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    background-color: #5C7309;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contacto {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #590202;
+    color: white;
+}
+
+footer {
+    background-color: #3E5902;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer .contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
